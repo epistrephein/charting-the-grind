@@ -1,0 +1,101 @@
+date,start,finish,topic,activity_type,productivity_score,location,description
+13/04/2026,10:00,12:30,Open Science,reading,8,bigiavi,reading the paper to discuss during lesson
+14/04/2026,09:30,12:00,Semantic Digital Libraries,reading,6,bigiavi,reading again all papers for the exam
+14/04/2026,15:30,17:00,Freelance Work,brainstorming,5,home,planning all the tasks needed for the configuration of the new servers
+14/04/2026,17:00,17:30,Freelance Work,writing,6,bigiavi,writing specifications of the planned tasks
+14/04/2026,18:30,21:00,Semantic Digital Libraries,reading,7,bigiavi,reading again all papers for the exam
+15/04/2026,09:00,12:30,Semantic Digital Libraries,reading,8,32,reviewing all the exam material one last time
+16/04/2026,09:30,12:00,Open Science,reading,7,36,reading the paper to discuss during lesson
+17/04/2026,10:00,12:00,Freelance Work,programming,8,36,configuring the new linux servers arrived in the office
+17/04/2026,12:00,12:45,Freelance Work,writing,4,36,writing documentation regarding the chosen configuration
+17/04/2026,17:30,19:00,Open Science,programming,5,bigiavi,testing API endpoints and basic data manipulation
+18/04/2026,10:00,12:00,Knowledge Representation,programming,7,paleotti,programming the website that will serve as project documentation
+18/04/2026,12:00,13:00,Freelance Work,programming,6,paleotti,fixing some issues with the configuration of the servers
+20/04/2026,10:00,12:00,Open Science,reading,8,bigiavi,reading the paper to discuss during lesson
+20/04/2026,16:00,17:00,Open Science,brainstorming,5,34,brainstorming with the group for the data management plan to deliver
+20/04/2026,17:00,18:15,Open Science,writing,6,34,writing my part of the data management plan
+21/04/2026,09:30,10:45,Digital Scholarly Editing,reading,6,bigiavi,reading the mandatory articles for the exam
+21/04/2026,10:45,11:45,Freelance Work,programming,7,home,programming an integration with ChatGPT API + vector store
+21/04/2026,12:00,12:30,Information Visualization,reading,7,home,reading the slides of the course and the specifications of the early exam
+21/04/2026,12:30,13:15,Information Visualization,writing,8,home,writing the activities done up until today on a Google Sheet
+21/04/2026,15:00,16:00,Knowledge Representation,writing,6,bigiavi,writing better descriptions for the KGs for the exams
+21/04/2026,19:00,21:00,Freelance Work,programming,6,bigiavi,fixing some more issues with the configuration of the servers
+22/04/2026,11:00,12:00,Freelance Work,programming,8,36,fixing some more issues with the configuration of the servers
+22/04/2026,16:00,17:00,Knowledge Representation,brainstorming,4,36,deciding with group how to proceed with the exam project
+22/04/2026,17:00,18:30,Knowledge Representation,writing,6,36,writing descriptions for exam project items
+22/04/2026,21:00,23:00,Open Science,programming,6,bigiavi,drafting the initial steps of the code needed for the final project
+23/04/2026,09:30,12:00,Open Science,reading,7,bigiavi,reading the paper to discuss during lesson
+23/04/2026,15:30,17:00,Open Science,writing,6,bigiavi,writing my part of the data management plan
+23/04/2026,19:30,21:00,Open Science,programming,3,bigiavi,drafting the initial steps of the code needed for the final project
+24/04/2026,09:30,11:30,Knowledge Representation,programming,8,paleotti,programming the website that will serve as project documentation
+24/04/2026,11:30,13:00,Freelance Work,writing,6,paleotti,wrote documentation about new infrastructure deployed
+27/04/2026,09:30,12:00,Open Science,reading,8,paleotti,reading the paper to discuss during lesson
+27/04/2026,12:00,13:00,Open Science,writing,7,paleotti,finished writing my part of the data management plan
+27/04/2026,16:00,18:00,Open Science,reviewing,5,34,reviewed with the group the whole data management plan to deliver
+27/04/2026,20:00,23:00,Knowledge Representation,writing,6,bigiavi,started working on a new KG for the exam project
+28/04/2026,10:00,12:00,Knowledge Representation,writing,8,paleotti,continued working on a new KG for the exam project
+28/04/2026,12:00,13:30,Knowledge Representation,programming,7,paleotti,programmed the website that will serve as project documentation
+28/04/2026,18:30,21:30,Freelance Work,reviewing,6,bigiavi,reviewed colleagues PRs for infrastructure changes and documentation
+28/04/2026,21:30,22:30,Knowledge Representation,writing,6,bigiavi,continued working on a new KG for the exam project
+29/04/2026,10:30,12:30,Open Science,reading,8,32,reading the paper to discuss during lesson
+29/04/2026,14:30,18:00,Freelance Work,reviewing,6,bigiavi,"last day of work, reviewed all pending tasks "
+30/04/2026,10:00,12:00,Open Science,writing,7,32,drafting my part of the workflow protocol document
+30/04/2026,16:30,18:00,Open Science,writing,5,36,drafting my part of the workflow protocol document
+30/04/2026,20:30,22:00,Knowledge Representation,writing,7,bigiavi,continued working on a new KG for the exam project
+01/05/2026,17:00,19:30,Knowledge Representation,writing,6,home,continued working on a new KG for the exam project
+01/05/2026,19:30,20:00,Open Science,reading,6,home,reading the paper to discuss during lesson
+02/05/2026,10:30,12:00,Knowledge Representation,programming,8,bigiavi,wrote a couple of script for data manipulation useful for the exam project
+02/05/2026,12:00,13:00,Knowledge Representation,programming,7,bigiavi,continued working on the website that will serve as project documentation
+02/05/2026,18:00,19:30,Knowledge Representation,writing,5,bigiavi,continued working on a new KG for the exam project
+03/05/2026,10:00,13:00,Open Science,programming,8,32,started working on the code for the exam project
+03/05/2026,16:00,18:00,Open Science,programming,6,36,continued working on the code for the exam project
+04/05/2026,09:30,13:00,Open Science,programming,7,32,continued working on the code for the exam project
+04/05/2026,16:30,18:30,Open Science,programming,6,bigiavi,continued working on the code for the exam project
+04/05/2026,20:30,21:30,Open Science,programming,5,bigiavi,continued working on the code for the exam project
+04/05/2026,21:30,22:30,Knowledge Representation,writing,5,bigiavi,continued working on a new KG for the exam project
+05/05/2026,11:00,12:30,Knowledge Representation,programming,6,32,continued working on the website that will serve as project documentation
+05/05/2026,19:30,22:30,Knowledge Representation,programming,6,32,continued working on the website that will serve as project documentation
+06/05/2026,11:00,12:00,Knowledge Representation,programming,8,34,continued working on the website that will serve as project documentation
+06/05/2026,18:30,20:30,Open Science,programming,8,bigiavi,continued working on the code for the exam project
+06/05/2026,20:30,23:00,Open Science,reading,5,bigiavi,reading the paper to discuss during lesson
+07/05/2026,09:00,11:00,Knowledge Representation,brainstorming,8,34,brainstormed with the group for further improvements of the website
+07/05/2026,11:00,12:00,Open Science,reviewing,8,34,reviewed other group protocol file
+07/05/2026,20:00,23:00,Knowledge Representation,programming,5,bigiavi,continued working on the website that will serve as project documentation
+08/05/2026,09:30,11:00,Open Science,programming,8,32,continued working on the code for the exam project
+08/05/2026,11:00,12:30,Knowledge Representation,programming,8,32,continued working on the website that will serve as project documentation
+08/05/2026,19:30,23:00,Knowledge Representation,programming,8,bigiavi,continued working on the website that will serve as project documentation
+09/05/2026,10:00,13:00,Knowledge Representation,programming,8,bigiavi,continued working on the website that will serve as project documentation
+09/05/2026,15:30,17:30,Knowledge Representation,reviewing,5,bigiavi,reviewed all the group's PRs for the project
+10/05/2026,10:00,12:30,Open Science,programming,6,home,continued working on the code for the exam project
+10/05/2026,15:30,21:00,Knowledge Representation,programming,8,home,finalized the exam project with the group
+11/05/2026,09:30,11:00,Knowledge Representation,reviewing,9,bigiavi,"final review, 1.0 release and email to Gangemi"
+11/05/2026,11:00,13:00,Open Science,programming,8,bigiavi,finalized step 1 of the code for the exam project
+11/05/2026,15:00,16:30,Open Science,writing,6,34,rewrote with the group DMP and Protocol based on other group's review
+11/05/2026,16:30,18:30,Open Science,brainstorming,6,34,brainstormed with the group on how to tackle step 2 of the code for exam project
+12/05/2026,09:30,11:00,Knowledge Representation,brainstorming,8,34,prepared discourse for exam
+13/05/2026,09:30,12:00,Information Visualization,programming,8,34,started working on the code for the exam project
+13/05/2026,18:30,21:00,Open Science,programming,6,bigiavi,started working on step 2 of the code for the exam project
+14/05/2026,10:00,12:00,Open Science,brainstorming,8,34,brainstormed with the group on how to prepare for next steps of the exam project
+14/05/2026,21:30,23:00,Knowledge Representation,reviewing,8,bigiavi,reviewed and planned all improvements suggested by professor for v1.1 of the project
+15/05/2026,09:30,11:00,Knowledge Representation,programming,8,bigiavi,applied some improvements planned for v1.1 of the project
+15/05/2026,11:00,14:00,Open Science,programming,8,bigiavi,continued working on step 2 of the code for the exam project
+15/05/2026,18:30,21:00,Digital Scholarly Editing,reading,6,bigiavi,reading the mandatory articles for the exam
+15/05/2026,21:30,23:30,Open Science,programming,6,bigiavi,continued working on step 2 of the code for the exam project
+16/05/2026,09:00,11:30,Information Visualization,programming,8,bigiavi,continued working on the code for the exam project
+16/05/2026,11:30,13:00,Open Science,programming,9,bigiavi,continued working on step 2 of the code for the exam project
+16/05/2026,16:00,17:00,Digital Scholarly Editing,reading,5,home,reading the mandatory articles for the exam
+16/05/2026,17:00,20:30,Open Science,programming,5,home,continued working on step 2 of the code for the exam project
+17/05/2026,09:30,11:00,Knowledge Representation,programming,8,bigiavi,applied more improvements planned for v1.1 of the project and prepared publication
+17/05/2026,11:00,13:30,Open Science,programming,8,bigiavi,continued working on step 2 of the code for the exam project
+17/05/2026,15:00,17:00,Information Visualization,programming,6,bigiavi,continued working on the code for the exam project
+18/05/2026,09:30,12:30,Information Visualization,programming,8,paleotti,continued working on the code for the exam project
+18/05/2026,16:00,18:30,Digital Scholarly Editing,reading,5,36,reading the mandatory articles for the exam
+18/05/2026,21:00,23:00,Information Visualization,programming,7,36,continued working on the code for the exam project
+19/05/2026,09:30,10:30,Knowledge Representation,writing,8,bigiavi,rewrote most texts in website and wrote a documentation page
+19/05/2026,10:30,14:00,Information Visualization,programming,8,bigiavi,continued working on the code for the exam project
+19/05/2026,19:30,20:45,Digital Scholarly Editing,reading,5,bigiavi,reading the mandatory articles for the exam
+19/05/2026,21:00,23:30,Information Visualization,programming,8,bigiavi,continued working on the code for the exam project
+20/05/2026,09:00,11:00,Digital Scholarly Editing,reading,6,bigiavi,reading the mandatory articles for the exam
+20/05/2026,11:00,12:00,Information Visualization,programming,8,bigiavi,continued working on the code for the exam project
+20/05/2026,16:00,18:00,Digital Scholarly Editing,reading,5,bigiavi,finished reading the mandatory articles for the exam
+20/05/2026,18:00,22:00,Information Visualization,programming,8,bigiavi,finished working on the code for the exam project
