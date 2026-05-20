@@ -1,4 +1,5 @@
 ipykernel
+ipython
 pandas
 kaleido
 nbformat
