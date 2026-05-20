@@ -5,6 +5,8 @@ understanding **personal study habits** through the visual exploration of a
 manually self-tracked study log, collected over roughly a month of study
 sessions.
 
+The website is live at [epistrephein.github.io/charting-the-grind](https://epistrephein.github.io/charting-the-grind/)
+
 ## Repository structure
 
 - `notebook.ipynb`: the Jupyter Notebook where I performed all the data
@@ -22,3 +24,6 @@ sessions.
   iframe in the website.
 - `website/index.html`: the main page of the website, with the narrative
   accompanying the main chart and the embedded interactive version.
+
+## Credits
+- [Tommaso Barbato](https://github.com/epistrephein)

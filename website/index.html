@@ -1,76 +1,64 @@
-<!-- outputs/index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Charting the Grind</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 40px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f8fafc;
-      color: #1f2937;
-    }
-
-    main {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      margin-bottom: 0.25rem;
-      font-size: 2.2rem;
-    }
-
-    .subtitle {
-      margin-top: 0;
-      margin-bottom: 2rem;
-      color: #6b7280;
-      font-size: 1.1rem;
-    }
-
-    .chart-card {
-      background: white;
-      border-radius: 18px;
-      padding: 24px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    }
-
-    iframe {
-      width: 100%;
-      height: 820px;
-      border: none;
-    }
-
-    .note {
-      margin-top: 1rem;
-      color: #6b7280;
-      font-size: 0.95rem;
-      line-height: 1.5;
-    }
-  </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <main>
-    <h1>Charting the Grind</h1>
-    <p class="subtitle">
-      A small visual exploration of my study habits.
-    </p>
+  <div class="bg-layer" aria-hidden="true"></div>
 
-    <section class="chart-card">
-      <iframe
-        src="chart.html"
-        title="Productivity by time of day and location">
-      </iframe>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Information Visualization 2025/26</p>
+      <h1>Charting the Grind</h1>
+      <p class="subtitle">A visual exploration of personal study habits, routines and productivity patterns.</p>
 
-      <p class="note">
-        This interactive chart shows how productivity changes across different
-        combinations of time of day and location. Bubble size represents total
-        study hours, while color shows productivity relative to the other combinations.
+      <section class="text-card" aria-label="Project description">
+        <h2>Project description</h2>
+        <p>
+          This project was developed for the <strong>Information Visualization 2025/26 course</strong> and explores <strong>personal study habits</strong> through a manually self-tracked study log collected over roughly one month of sessions. I started keeping this log to build a clearer and more concrete picture of my study routine. By turning sessions into visualizations, the project aims to reveal patterns that are easy to miss in raw notes and suggest practical insights about my habits.
+        </p>
+      </section>
+    </header>
+
+    <section class="panel" aria-label="Interactive chart">
+      <h2>Data visualization</h2>
+      <p class="section-intro">
+        The visualization I choose to submit is a <strong>bubble chart</strong> designed to answer a practical question: <strong>where and when I seem to work better</strong>. It combines three dimensions of my study log that are central to my routine, <strong>time of day</strong>, <strong>location</strong>, and <strong>productivity score</strong>, to test whether specific contexts are consistently more effective than others. Each bubble represents one combination of time of day and location; color encodes the <strong>average productivity score</strong>, while bubble size represents the <strong>total recorded study hours</strong> for that same combination. This makes the chart useful both for spotting higher-productivity settings and for checking whether those patterns are supported by a <strong>meaningful amount of study time</strong> rather than by a small and potentially misleading number of sessions.
       </p>
+
+      <div class="chart-scroll">
+        <iframe
+          class="chart-frame"
+          src="chart.html"
+          title="Productivity by time of day and location">
+        </iframe>
+      </div>
     </section>
+
+    <section class="text-card" aria-label="Chart interpretation">
+      <h2>Interpretation</h2>
+        <p>The chart has a very clear take-home message: <strong>morning is carrying my productivity on its back</strong>, while afternoon is where good intentions go to quietly suffer.<br><br>The strongest combinations are all in the <strong>morning</strong>. <strong>Zamboni 34</strong> in the morning has the highest average productivity score although it is based on only <strong>10 hours</strong> and <strong>6 sessions</strong>, which makes sense: the place is a reservable study room, great for group projects and focused alone work, but not always easy to book.<br><strong>Bigiavi in the morning</strong> is much more convincing: it has a high average productivity score, <strong>7.7</strong>, but also much more data behind it, with <strong>39.75 hours</strong> and <strong>20 sessions</strong>. This makes it probably the most reliable "sweet spot" in the chart, and it also matches my intuition: I often feel that I work better in the morning, and this is the place where I spend most of my mornings, so it is not surprising that it shows up as a strong combination.<br><br>The afternoon, on the other hand, is consistently weak. Zamboni <strong>34</strong> and <strong>36</strong>, <strong>Bigiavi</strong>, and <strong>home</strong> all drop to an average productivity score around <strong>5.5</strong>. This is useful because it confirms that the problem is probably not just the place, but the time of day itself. Apparently, after lunch my brain fogs up and I struggle to focus. I already tend to avoid planning demanding work in the afternoon, but this chart suggests that I should probably skip it altogether.<br><br>The evening is mixed. <strong>Bigiavi in the evening</strong> has a lot of recorded time, <strong>41.75 hours</strong>, but only an average productivity score of <strong>6.1</strong>. This means I spend many evening hours there, but they are not necessarily my best hours. It may still be useful for lighter or mechanical work, but probably not for the tasks that require maximum focus.<br><br>The practical decision is clear: I should reserve <strong>morning sessions</strong>, especially at <strong>Bigiavi</strong>, for the most demanding work: programming, writing important sections, or solving difficult project problems. Afternoons should be used more cautiously or skipped altogether. Evenings can still be productive, but they should not become the place where I dump all the work I failed to do earlier, because the chart suggests that this strategy is not exactly a masterpiece of self-management.</p>
+    </section>
+
+    <footer class="site-footer" aria-label="Author credits">
+      <p>developed by Tommaso Barbato</p>
+      <a class="github-link" href="https://github.com/epistrephein/charting-the-grind" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+          <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38
+          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94a2.1 2.1 0 0 0-.9-1.16
+          c-.74-.4.06-.39.06-.39a1.67 1.67 0 0 1 1.22.82 1.7 1.7 0 0 0 2.33.66
+          1.7 1.7 0 0 1 .5-1.07c-1.78-.2-3.64-.89-3.64-3.95a3.1 3.1 0 0 1 .82-2.15
+          2.88 2.88 0 0 1 .08-2.12s.67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82
+          2.2-.82.31.76.34 1.61.08 2.12a3.1 3.1 0 0 1 .82 2.15c0 3.07-1.87 3.75-3.65
+          3.95a1.9 1.9 0 0 1 .54 1.48c0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0
+          0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+        </svg>
+      </a>
+    </footer>
   </main>
 </body>
 </html>
